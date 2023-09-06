@@ -30,7 +30,7 @@ public class CustomerServiceTest {
     @Test
     void shouldThrowRunExceptionError() {
         Assertions.assertThrows(NoSuchElementException.class, () -> {
-            customerService.getCustomerById(2L);
+            customerService.getCustomerById(232L);
         });
     }
 }
