@@ -5,6 +5,7 @@ import com.george.bank.model.dto.CustomerCreationRequest;
 import com.george.bank.service.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
